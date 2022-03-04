@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.container {
+    width: 830px;
+    height: 633px;
+    padding: 56px 86.69px 174px 72px;
+}
+
+.container h1 {
+    font-size: 32px;
+    line-height: 32.44px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    margin-bottom: 25.29px;
+}
+
+.container .middle-part {
+    display: flex;
+    align-items: center;
+}
+
+.container .middle-part p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 383px;
+}
+
+.container .middle-part .image-section {
+    position: relative;
+    margin-left: 110.45px;
+    margin-top: -29px;
+}
+.container .middle-part article img:first-child {
+    width: 181.86px;
+    height: 182.44px;  
+}
+.container .middle-part article img:nth-child(2) {
+    position: absolute;
+    bottom: -15px;
+    left: -20px;
+    width: 220px;
+    height: 40px;
+    z-index: -1;
+}
+
+.bottom-part .parts {
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.bottom-part .parts div:first-child {
+    margin-right: 55.23px;
+}
+.bottom-part .parts div:nth-child(2) {
+    margin-right: 32.53px;
+}
+
+.bottom-part .parts .part-2 p {
+    width: 108px;
+}
+
+.bottom-part .parts h2 {
+    font-size: 15px;
+    line-height: 19.5px;
+    font-weight: 700;
+    width: 86.88px;
+}
+
+.bottom-part .parts p {
+    line-height: 14.3px;
+    font-size: 11px;
+    font-weight: 400;
+    width: 86.88px;
+    margin-top: 4.17px;
+}
